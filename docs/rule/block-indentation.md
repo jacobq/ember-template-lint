@@ -5,7 +5,7 @@ Good indentation is crucial for long term maintenance of templates. For example,
 This rule forbids the following examples:
 
 ``` hbs
-  {{#each foo as |bar}}
+  {{#each foo as |bar|}}
 
     {{/each}}
 
